@@ -13,3 +13,11 @@ void AddPlaylistSpotify(List musik, String namaMusik){
     }
   }
 }
+
+void DeleteSongOnPlaylistSpotify(List musik, String namaMusik){
+  musik.remove(namaMusik);
+}
+
+void ShowList(List musik){
+  print (musik);
+}
